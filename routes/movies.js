@@ -58,7 +58,7 @@ try{
     service: 'gmail',
     auth: {
       user: 'anusriraman.r@gmail.com',
-      pass: "vbukhmczcdvjjfxt"
+      pass: process.env.PASS
     }
   });
 
